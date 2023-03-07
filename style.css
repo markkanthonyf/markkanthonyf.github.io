@@ -1,4 +1,4 @@
-* {
+    * {
     box-sizing: border-box;
 }
 
@@ -6,7 +6,7 @@
 [class*="col-"] {
     width: 100%;
 }
- 
+
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -88,4 +88,27 @@ h6{
 
 p{
     font-size: 15px;
+}
+
+/* gallery view */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
